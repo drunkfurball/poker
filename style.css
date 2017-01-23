@@ -1,0 +1,50 @@
+body {
+	font-size: 100%;
+    background-color: silver;
+}
+
+#poker {
+    background-color: forestgreen;
+    height: 125px;
+    width: 480px;
+    padding: 10px;
+    clear: both;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+.card {
+    float: left;
+    background-color: snow;
+	border-radius: 5px;
+	width: 14px;
+    padding: 25px;
+    margin: 15px;
+    clear:none;
+	text-align: center;
+}
+
+.held {
+    border: 5px solid midnightblue;
+	border-radius: 8px;
+    margin: 10px;
+}
+
+#deal {
+	background-color: dodgerblue;
+	color: white;
+	font-weight: bold;
+	width: 490px;
+	padding: 5px;
+	text-align: center;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+.gold {
+	color: gold;
+}
+
+.maroon {
+	color: maroon;
+}

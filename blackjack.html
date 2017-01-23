@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>BlackJack</title>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="BlackJack, JavaScript game">
+		<meta name="description" content="BlackJack program written in JavaScript">
+		<meta name="author" content="Murph Strange">
+		<link rel="icon" type="image/png" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="jquery-1.11.1.min.js"></script>
+		<script src="poker.js"></script>
+		<script src="blackjack.js"></script>
+	</head>
+	<body>
+		<div style="width:500px;">
+			<h1 style="display:inline;">BlackJack</h1>
+			<h2 style="display:inline;margin:30px;text-align:left;" id="message">WINNER!!!</h2>
+			<span style="float:right;text-align:right;" id="bank">Score: 100</span>
+			<div id="poker">
+				<div id="dealer0" class="card" ></div>
+				<div id="dealer1" class="card" ></div>
+				<br />
+				Dealer has: <span id="dealer_total"></span>
+				<br />
+				Player has: <span id="player_total"></span>
+				<div id="player0" class="card" ></div>
+				<div id="player1" class="card" ></div>
+				
+			</div>
+		</div>
+		<div id="deal" onclick="deal();">Deal</div>
+	</body>
+</html>
